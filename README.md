@@ -6,6 +6,12 @@ Uses PHP magic functions to provide a simple and powerful interface.
 
 ## Usage
 
+### Installation
+
+```bash
+composer require jagdish-j-p/cpanel-api
+```
+
 ### Instantiate the class
 
 Basic Authentication using cpanel username and password
