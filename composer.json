@@ -1,0 +1,19 @@
+{
+    "name": "jagdish-j-p/cpanel-api",
+    "description": "PHP Implementation of CPANEL APIS i.e. UAPI, API2 to manage functions of CPANEL via PHP i.e. managing database, managing database users.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JagdishJP\\CPanelAPI\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jagdish Patel",
+            "email": "jagdish.j.ptl@gmail.com"
+        }
+    ],
+    "require": {},
+    "minimum-stability": "stable"
+}
