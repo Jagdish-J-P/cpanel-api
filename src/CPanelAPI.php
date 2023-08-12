@@ -24,10 +24,6 @@ use Exception;
  * @link https://github.com/Jagdish-J-P/cpanel-api
  *
  */
-enum AuthType:string {
-    case BASIC = 'Basic';
-    case TOKEN = 'cpanel';
-}
 
 /**
  * Class cPanelAPI
@@ -65,7 +61,7 @@ class CPanelAPI
      * @param $secret
      * @param $authType Basic/cpanel
      */
-    function __construct($user, $pass, $server, $authType = 'Basic', $secret = FALSE)
+    function __construct($user, $pass, $server, $authType = null, $secret = FALSE)
     {
         $this->user = $user;
         $this->pass = $pass;
@@ -74,7 +70,7 @@ class CPanelAPI
             $this->secret = $secret;
             $this->set2Fa();
         }
-        $this->authType = $authType;
+        $this->authType = $authType ?? AuthType::BASIC;
     }
 
     /**
