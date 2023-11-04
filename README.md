@@ -4,15 +4,19 @@ cPanel UAPI and API2 PHP class
 PHP class to provide an easy-to-use interface with cPanel's UAPI and API2.
 Uses PHP magic functions to provide a simple and powerful interface.
 
-## Usage
+## Become a sponsor
 
-### Installation
+[![](.github/assets/support.png)](https://github.com/sponsors/Jagdish-J-P)
+
+Your support allows me to keep this package free, up-to-date and maintainable. Alternatively, you can **[spread the word!](http://twitter.com/share?text=I+am+managing+my+cpanel+using+this+cool+PHP+package&url=https://github.com/jagdish-j-p/cpanel-api&hashtags=PHP,Laravel,CPANEL)**
+
+## Installation
 
 ```bash
 composer require jagdish-j-p/cpanel-api
 ```
 
-### Instantiate the class
+## Usage
 
 Basic Authentication using cpanel username and password
 ```php
